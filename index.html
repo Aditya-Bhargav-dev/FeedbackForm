@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="style.css">
+	<title>FeedbackForm</title>
+</head>
+
+<body>
+	<form>
+		<div>
+			<label for="lname">Name<span>*</span></label><br>
+			<input type="text" id="lname"><span style="padding-left:25px;"></span>
+			<input type="text" id="fname">
+		</div>
+		<div>
+			<span style="color: black;">First</span><span style="padding-left:175px; color: black;">Last</span>
+		</div>
+		<div><br>
+			<label for="email">Email<span>*</span></label><br>
+			<input type="email" id="email">
+		</div><br>
+		<div>
+			<label for="exp">Your Experience<span>*</span></label><br>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+		</div>
+		<p>Overall how would you rate your experience with us?
+		<h3>How satisfied are you with us?<span>*</span></h3>
+		<table>
+			<tr>
+				<td></td>
+				<td>Very Unsatisfied</td>
+				<td>Unsatisfied</td>
+				<td>Neutral</td>
+				<td>Satisfied</td>
+				<td>Very Satisfied</td>
+			</tr>
+			<tr>
+				<td>Purchase</td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+			</tr>
+			<tr>
+				<td>Service</td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+			</tr>
+			<tr>
+				<td>Company Overall</td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+			</tr>
+		</table>
+		<h3>How Likely are you to<span>*</span></h3>
+		<table>
+			<tr>
+				<td></td>
+				<td>Very Unlikely</td>
+				<td>Unlikely</td>
+				<td>Neutral</td>
+				<td>Likely</td>
+				<td>Very Likely</td>
+			</tr>
+			<tr>
+				<td>Buy from us again</td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+			</tr>
+			<tr>
+				<td>Recommend our<br> product to others</td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+			</tr>
+			<tr>
+				<td>Recommend our<br> company to others</td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+				<td><input type="radio" id="chk"></td>
+			</tr>
+		</table>
+		<div>
+			<h3>Additional Comments or Suggestions</h3>
+			<textarea id="tarea"></textarea>
+		</div>
+		<input class="button" type="submit">
+	</form>
+</body>
+
+</html>
